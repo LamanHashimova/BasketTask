@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+Header .logo {
+    width: 20%;
+}
+Header{
+    background-color: rgb(253, 176, 148);
+}
+Header .logo  img{
+    width: 100%;
+}
+.header-all{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.icons{
+display: flex;
+gap: 30px;
+align-items: center;
+}
+.basket a{
+    text-decoration: none;
+    color: black;
+}
+.basket a .count{
+background-color: rgb(235, 97, 47);
+padding: 1px 8px;
+border-radius: 50%;
+color: white;
+}
+.card img{
+    width: 100%;
+
+}
+.card{
+    width: 25rem;
+    margin: 20px 0 30px;
+ 
+}
+.alert{
+background-color: rgb(100, 218, 100);
+padding: 5px;
+width: 20%;
+text-align: center;
+font-weight: bold;
+position: fixed;
+right: -400px;
+bottom: 20px;
+z-index: 2;
+transition: 1s;
+}
+.price .delete i{
+  cursor: pointer;
+}
+.products{
+    display: flex;
+    align-items: center;
+    border: solid 1px #e6e6e6;
+     border-radius: 5px;
+     margin-top: 20px;
+     background-color: white;
+     width: 80%;
+     padding: 20px 0;
+     box-shadow: 1px 1px  0 1px gray;
+}
+.products .info{
+    width: 100%;
+    padding: 0 0 0 20px;
+}
+
+.products .others{
+    display: flex;
+    gap:50px;
+    align-items: center;
+   padding:0 30px;
+    
+}
+
+.products .photo{
+  width: 20%;
+
+}
+.products .photo img{
+ width: 80%;
+ 
+}
+.products .others .number button{
+    border: 1px solid #e6e6e6;
+    background-color: #fafafa;
+    width: 24px;
+    height: 34px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+
+}.products .others .number input{
+    width: 42px;
+    user-select: none;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #4a4a4a;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    outline: none;
+    text-align: center;
+}
+.products .others .number {
+    display: flex;
+    align-items: center;
+}
+.products .others .price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-price{
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3rem 2rem;
+    background-color: #f2f2f2;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+}
+ 
+
+.all-price h2{
+font-size: 30px;
+text-align: center;
+padding: 5px 0;
+color:rgb(235, 96, 45);
+}
+.all-price li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+   
+}
+
+.empty-cart {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Maison Neue';
+    font-weight: 300;
+  }
+  svg {
+    max-width: 60%;
+    padding: 5rem 3rem;
+  }
+
+  p {
+    color: rgba(0,0,0,0.5);
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 80%;
+
+  }
+  .shopping{
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+  }
